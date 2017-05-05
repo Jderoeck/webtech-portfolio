@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+  background-color: #f1f1f1;
+}
+
+.phone{
+  width: 1312px;
+  height: 2334px;
+  margin: 0 auto;
+}
+
+#app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+#promo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+  background-color: #fff;
+}
+h1{
+  font-size: 15vh;
+}
+p{
+  font-size: 2vh;
+}
+
+a{
+  height: 100%;
+  width: 100%;
+  font-size: 2vh;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.img{
+  height: 100%;
+  width: auto;
+  max-height: 1100px;
+  max-width: 762px;
+}
+
+.btn{
+  background-color: #ff6900;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  position: fixed;
+}
